@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portafolio CV - Desarrolador</title>
+
+    <!-- Bootstrap 5 CSS-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- font awesome css -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+    <!-- ccs perssonalizado-->
+    <link href="styless-portafolio.css" rel="stylesheet">
+
+</head>
+<body>
+    <!-- =========================
+     BARRA DE NAVEGACION
+    ==============================-->
+    <nav class="navbar navbar-expand-lg navbar-dark"> 
+        <div  class="container-fluid">
+            <a class="navbar-brand" href="#inicio">
+                <i class="fas fa-code"></i>William <span>.Dev</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#acerca">Acerca de mi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#habilidades">Habilidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experiencia">Experiencia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#proyectos">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="educacion">Educacion </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+
+            </div>
+        
+        </div>
+    </nav>
+    
+     <!--==========================
+    SECCIÓN HEROE
+    =============================-->
+    <section class="hero" id="inicio">
+      <div class="hero-content">
+        <!--Imágen de perfil-->
+        <svg
+          class="hero-image"
+          viewBox="0 0 200 200"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <rect width="200" height="200" fill="#3498db" />
+          <circle cx="100" cy="70" r="35" fill="#ecf0f1" />
+          <ellipse cx="100" cy="140" rx="50" ry="45" fill="#ecf0f1" />
+        </svg>
+        <h1>William Collo</h1>
+        <p class="subtitle">Científico de Datos</p>
+        <p class="description">
+          Apasionado por transformar datos en información valiosa. Con
+          experiencia en análisis de datos, modelado predictivo y visualización.
+          Mi objetivo es ayudar a las empresas a tomar decisiones informadas
+          basadas en datos.
+        </p>
+        <a href="#contacto" class="btn btn-primary-custom">!Contáctame¡</a>
+      </div>
+    </section>
+    <!-- ========================
+     SECCIÓN ACERCA DE MI
+    =============================-->
+    <section id="acerca" class="about">
+        <div class="container">
+            <h2 class="section-title">
+                Acerca de mí
+            </h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Científico de Datos</h3>
+                    <p>
+                        Soy un apasionado científico de datos con experiencia en análisis de datos,
+                        modelado predictivo y visualización. Me especializo en transformar datos </p>
+                    <p>complejos en información valiosa para la toma de decisiones estratégicas.
+                        Mi objetivo es utilizar mis habilidades para resolver problemas del mundo real y</p>
+                    <p>contribuir al éxito de las organizaciones a través del poder de los datos.</p>
+                    </p>
+                </div>
+                <div>
+                    <ul class="info-list">
+                        <li>
+                            <strong>Nombre:</strong> <span>William Collo</span>
+                        </li>
+                        <li>
+                            <strong>Ubicación:</strong> <span>Huila, Neiva</span>
+                        </li>
+                        <li>
+                            <strong>Experiencia:</strong> <span>5+ años</span>
+                        </li>
+                        <li>
+                            <strong>Email:</strong> <span><a href="wiecollo-2024a@corhuila.edu.co"
+                                    style="color: var(--secondary-color);">wiecollo-2024a@corhuila.edu.co</a></span>
+                        </li>
+                        <li>
+                            <strong>Especialización:</strong> <span>Analítica de Datos</span>
+                        </li>
+                        <li>
+                            <strong>Disponibilidad:</strong> <span>Abierto a oportunidades</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--==========================
+    HABILIDADES
+    =============================-->
+    <section id="habilidades" class="skills">
+        <div class="container">
+            <h2 class="section-title">Habilidades</h2>
+            <div class="skills-grid">
+                <!--Frontend-->
+                <div class="skill-card" data-skill="frontend">
+                    <h4><i class="fas fa-code"></i>Frontend</h4>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>HTML</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--target: 95%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Javascript</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--target: 95%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>React</span>
+                            <span>88%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--target: 95%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Bootstrap</span>
+                            <span>92%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--target: 95%;"></div>
+                        </div>
+                    </div>
+                </div>
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
